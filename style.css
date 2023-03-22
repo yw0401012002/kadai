@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+  text-decoration: none;
+  color: #38b48b;
+}
+
+header, main, footer {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+  text-align: center;
+}
+
+header .heading {
+  padding-top: 10px;
+}
+
+header .heading a {
+  color: #fff;
+}
+
+.nav-list {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+  color: #fff;
+}
+
+/* main */
+main {
+  background-color: #ecfcdf;
+  padding: 10px 40px 40px;
+}
+
+main .main-heading {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+}
+
+.main-image {
+  width: 30%;
+  margin-right: 10px;
+}
+
+.main-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main-profile-box {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 70%;
+  padding: 0 10px;
+}
+
+.main-profile-box dl {
+  display: flex;
+}
+
+.main-profile-box dl dt,
+.main-profile-box dl dd {
+  line-height: 40px;
+}
+
+.main-profile-box dl dt {
+  width: 100px;
+  font-weight: bold;
+}
+
+.sns-list {
+  list-style: none;
+  display: flex;
+  margin-left: 100px;
+}
+
+.sns-list li {
+  margin: 0 20px 20px 0;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: darkgreen;
+  text-align: center;
+  line-height: 100px;
+}
+
+.footer-text {
+  color: #fff;;
+}
+
+@media screen and (max-width:768px) {
+  .main-box {
+    display: block;
+  }
+
+  .main-image {
+    width: 100%;
+  }
+
+  .main-profile-box {
+    width: 100%;
+  }
+}
